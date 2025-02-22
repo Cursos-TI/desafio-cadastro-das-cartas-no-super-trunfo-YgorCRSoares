@@ -68,7 +68,7 @@ int main() {
     //Gera Linhas para mostrar o resultado mais organizado na tela
     printf("\nGerando resultado... \n");
     //Pré-Resultado
-    printf("\n \nAqui está! \n ------------ \n");
+    printf("\nAqui está! \n ------------ \n");
 
     // Visualização das Cartas.
     printf("\nPrimeira Carta \n \nEstado: %c\nCódigo: %c%02d\nNome da Cidade: %s\nPopulação: %i\nArea: %.2f\nPIB: %.2f\nNúmero de Pontos Turísticos: %i\n \n ------ Versus ------ \n", _1letra,_1letra,CodCity,Nome,Populacao,Area,PIB,p_turisticos);
