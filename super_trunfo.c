@@ -44,10 +44,14 @@ int main() {
     scanf("%f", &Area);
     printf("Insira o PIB (float): ");
     scanf("%lf", &PIB);
-    densidade1 = Populacao / Area;
-    PibPerCap1 = PIB / Populacao;
     printf("Quantidade de pontos turísticos(int): ");
     scanf("%d", &p_turisticos);
+
+    //  Nivel Aventureiro ↓
+    densidade1 = Populacao / Area;
+    PibPerCap1 = PIB / Populacao;
+    //  Nivel Aventureiro ↑
+
     printf("\nCarta Registrada!\n");
 
     printf("\nPróxima carta...");
@@ -67,8 +71,12 @@ int main() {
     scanf("%lf", &PIB2);
     printf("Quantidade de pontos turísticos (int): ");
     scanf("%d", &p_turisticos2);
+
+    //  Nivel Aventureiro ↓
     densidade2 = Populacao2 / Area2;
     PibPerCap2 = PIB2 / Populacao2;
+    //  Nivel Aventureiro ↑
+    
     printf("\nCarta Registrada!\n");
 
 
